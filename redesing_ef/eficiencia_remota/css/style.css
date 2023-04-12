@@ -78,14 +78,8 @@ main {
 }
 
 .parallax {
-
-    /* The image used */
     background-image: url("https://images.homify.com/c_fill,f_auto,h_500,q_auto,w_1280/v1437566097/p/photo/image/761530/IMG_5592.jpg");
-
-    /* Full height */
     height: 60%;
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -282,9 +276,18 @@ main {
     color: rgb(243, 168, 238);
 }
 
+.certificados span {
+    margin-top: -20px;
+}
+
 .certificados a {
     color: white;
     text-decoration: none;
+}
+
+.certificados a:hover {
+    transition: 0.3s;
+    color: rgb(253, 171, 47);
 }
 
 
@@ -799,7 +802,7 @@ footer {
         margin-top: 30px;
     }
 
-    .perguntas{
+    .perguntas {
         max-height: 100%;
     }
 
