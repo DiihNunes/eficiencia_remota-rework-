@@ -9,84 +9,6 @@ main {
     perspective: 2px;
 }
 
-.no-parallax {
-    background: #111111;
-    color: #f9f9f9;
-    width: 100%;
-    transform-style: preserve-3d;
-    position: relative;
-    max-height: 100%;
-    display: grid;
-    place-items: center;
-}
-
-.parallax {
-
-    /* The image used */
-    background-image: url("https://images.homify.com/c_fill,f_auto,h_500,q_auto,w_1280/v1437566097/p/photo/image/761530/IMG_5592.jpg");
-
-    /* Full height */
-    height: 60%;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.bg{
-    background-image: url("https://investidorsardinha.r7.com/wp-content/uploads/2021/11/servicos-financeiros-o-que-sao-e-tipos-de-produtos-utilizados-6.jpg");
-}
-
-.bg2{
-    background-image: url("https://tangerino.com.br/blog/wp-content/uploads/2021/01/aumento-da-produtividade-1.jpg");
-}
-
-.bg3{
-    background-image: url("https://s2.glbimg.com/kS6blsmyx7xRBf3_QSBT3-wsvtg=/smart/e.glbimg.com/og/ed/f/original/2020/11/18/notebooks-para-trabalhar-e-estudar.jpg");
-}
-
-.bg4{
-    background-image: url("https://www.lopes.com.br/blog/wp-content/uploads/2020/02/shutterstock_709983058-1000x600.jpg");
-}
-
-.filtro {
-    width: 100%;
-    height: 100%;
-    background-color: #333333b4;
-}
-
-.text,
-.text2,
-.text3 {
-    padding-top: 10%;
-}
-
-.text h1,
-.text2 h1,
-.text3 h1 {
-    color: white;
-    font-size: 35px;
-}
-
-.text h1 {
-    padding-left: 41%;
-}
-
-.text2 h1 {
-    padding-left: 44.5%;
-}
-
-.text3 h1 {
-    padding-left: 43%;
-}
-
-.text hr,
-.text2 hr,
-.text3 hr {
-    width: 55%;
-}
 
 .navbar {
     background: rgb(230, 166, 226);
@@ -141,6 +63,86 @@ main {
 
 .navbar li.threeline_menu:hover {
     color: #EFB0A1;
+}
+
+
+.no-parallax {
+    background: #111111;
+    color: #f9f9f9;
+    width: 100%;
+    transform-style: preserve-3d;
+    position: relative;
+    max-height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.parallax {
+
+    /* The image used */
+    background-image: url("https://images.homify.com/c_fill,f_auto,h_500,q_auto,w_1280/v1437566097/p/photo/image/761530/IMG_5592.jpg");
+
+    /* Full height */
+    height: 60%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg {
+    background-image: url("https://investidorsardinha.r7.com/wp-content/uploads/2021/11/servicos-financeiros-o-que-sao-e-tipos-de-produtos-utilizados-6.jpg");
+}
+
+.bg2 {
+    background-image: url("https://tangerino.com.br/blog/wp-content/uploads/2021/01/aumento-da-produtividade-1.jpg");
+}
+
+.bg3 {
+    background-image: url("https://s2.glbimg.com/kS6blsmyx7xRBf3_QSBT3-wsvtg=/smart/e.glbimg.com/og/ed/f/original/2020/11/18/notebooks-para-trabalhar-e-estudar.jpg");
+}
+
+.bg4 {
+    background-image: url("https://www.lopes.com.br/blog/wp-content/uploads/2020/02/shutterstock_709983058-1000x600.jpg");
+}
+
+.filtro {
+    width: 100%;
+    height: 100%;
+    background-color: #333333b4;
+}
+
+.text,
+.text2,
+.text3 {
+    padding-top: 10%;
+}
+
+.text h1,
+.text2 h1,
+.text3 h1 {
+    color: white;
+    font-size: 35px;
+}
+
+.text h1 {
+    padding-left: 41%;
+}
+
+.text2 h1 {
+    padding-left: 44.5%;
+}
+
+.text3 h1 {
+    padding-left: 43%;
+}
+
+.text hr,
+.text2 hr,
+.text3 hr {
+    width: 55%;
 }
 
 .info_inicial {
@@ -257,6 +259,7 @@ main {
 
 .info_equipe .container_equipe {
     height: 450px;
+    width: 100%;
     display: flex;
 }
 
@@ -268,6 +271,20 @@ main {
     max-width: 100%;
     height: 76.5%;
     padding-top: 3%;
+}
+
+.certificados {
+    margin-top: 300px;
+    margin-left: -550px;
+}
+
+.certificados h3 {
+    color: rgb(243, 168, 238);
+}
+
+.certificados a {
+    color: white;
+    text-decoration: none;
 }
 
 
@@ -577,13 +594,13 @@ footer {
         padding-left: 16px;
     }
 
-    .conteudo_quem_somos{
+    .conteudo_quem_somos {
         padding-top: 13%;
     }
 
     .info_equipe {
         width: 100%;
-        height: 700px;
+        height: 800px;
         background-image: none;
     }
 
@@ -614,6 +631,11 @@ footer {
         padding-right: 10%;
         padding-top: -4%;
         margin-bottom: 20px;
+    }
+
+    .certificados {
+        margin-left: 10px;
+        margin-top: 0px;
     }
 
     .texto_pararelo {
@@ -772,6 +794,19 @@ footer {
 
     .box_perguntas {
         font-size: 20px;
+        padding-left: 5%;
+        padding-bottom: 15px;
+        margin-top: 30px;
+    }
+
+    .perguntas{
+        max-height: 100%;
+    }
+
+    .fac h1 {
+        padding-top: 30px;
+        padding-left: 20px;
+        color: rgb(253, 171, 47);
     }
 
     .no-parallax {
